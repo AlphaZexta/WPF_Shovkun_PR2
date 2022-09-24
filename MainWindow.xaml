@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Slider Height="25" Width="100" Minimum="1" Maximum="100" Value="20"/>
+        <StackPanel>
+            <Button x:Name="button1" Padding="50 30 0 40" HorizontalContentAlignment="Left">
+                Hello World
+            </Button>
+            <Button x:Name="button2" Padding="60 20 0 30" HorizontalContentAlignment="Center">
+                Hello world
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>
